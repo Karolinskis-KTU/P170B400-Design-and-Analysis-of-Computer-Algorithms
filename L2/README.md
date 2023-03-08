@@ -1,4 +1,4 @@
-# Lab1
+# Lab2
 
 ## 1 užduoties dalis (4 balai):
 Pateiktiems programinio kodo metodams "methodToAnalysis(...)" (gautiems atlikus užduoties pasirinkimo testą):
