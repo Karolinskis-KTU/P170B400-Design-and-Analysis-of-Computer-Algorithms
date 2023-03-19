@@ -54,5 +54,5 @@ public static long FF2(int n, int [] arr)
 }
 ```
 3. 
-Logistikos įmonė turi nuvežti krovinį. Veždamas nuo pakrovimo iki iškrovimo sandėlio, vežėjas gali aplankyti n sandėlių, pažymėtų numeriais nuo 1 iki n. Vežėjas gali judėti tik didesniu numeriu pažymėto sandėlio link. Duotas kainų masyvas C, kur C(i,j) reikšmė nurodo, kiek kainuoja nuvažiuoti nuo i-tojo sandėlio iki j-tojo (įvertinami poilsio mokesčiai, kitos sąnaudos). Žinoma, kad C(i,j) = 0, ir nertinamas grįžimas atgal C(i,j) = ∞, jei i > j. Reikia rasti pigiausiai kainuojančių sandėlių seką.
+Logistikos įmonė turi nuvežti krovinį. Veždamas nuo pakrovimo iki iškrovimo sandėlio, vežėjas gali aplankyti n sandėlių, pažymėtų numeriais nuo 1 iki n. Vežėjas gali judėti tik didesniu numeriu pažymėto sandėlio link. Duotas kainų masyvas C, kur C(i,j) reikšmė nurodo, kiek kainuoja nuvažiuoti nuo i-tojo sandėlio iki j-tojo (įvertinami poilsio mokesčiai, kitos sąnaudos). Žinoma, kad C(i,j) = 0, ir nevertinamas grįžimas atgal C(i,j) = ∞, jei i > j. Reikia rasti pigiausiai kainuojančių sandėlių seką.
 
