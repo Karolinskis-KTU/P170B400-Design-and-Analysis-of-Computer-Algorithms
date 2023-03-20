@@ -74,6 +74,7 @@ namespace Third
 
                 Console.WriteLine("REC Elapsed time: {0}", RECstopWatch.Elapsed.TotalMicroseconds);
                 Console.WriteLine("DIN Elapsed time: {0}", DINstopWatch.Elapsed.TotalMicroseconds);
+                Console.WriteLine();
 
 
                 if (DEBUG) {
