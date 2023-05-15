@@ -96,7 +96,16 @@ namespace Project
                 {
                     Console.WriteLine($"Time limit reached.");
                     form.Invoke(new Action(() => {
-                        geneticRoute.BestFitness();
+                        List<City> bestRoute = geneticRoute.BestFitness();
+
+                        List<DataPoint> dataPoints = new List<DataPoint>();
+                        foreach (var city in bestRoute)
+                        {
+                            dataPoints.Add(new DataPoint(city.X, city.Y));
+                        }
+
+                        lineSeries.Points.Clear();
+                        lineSeries.Points.AddRange(dataPoints);
                     }));
                 }
             };

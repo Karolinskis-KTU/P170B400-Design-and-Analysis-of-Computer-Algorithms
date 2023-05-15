@@ -86,16 +86,20 @@ class GeneticRoute
         return bestRouteCities;
     }
 
-    public void BestFitness()
+    public List<City> BestFitness()
     {
         Console.WriteLine("Best route:");
+        Console.WriteLine(String.Join("->", AllTimeBestRoute.Cities));
+        // Fitness of the best route
+        Console.WriteLine("Fitness: " + AllTimeBestRoute.Fitness);
+
+        List<City> bestRouteCities = new List<City>();
         foreach (string city in AllTimeBestRoute.Cities)
         {
             City cityObj = GetCityByName(city);
-            Console.WriteLine(cityObj.Name);
+            bestRouteCities.Add(cityObj);
         }
-        // Fitness of the best route
-        Console.WriteLine("Fitness: " + AllTimeBestRoute.Fitness);
+        return bestRouteCities;
     }
 
     static List<CurrentRoute> IntializePopulation(int populationSize)
