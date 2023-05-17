@@ -10,6 +10,7 @@ using OxyPlot.Series;
 using OxyPlot.WindowsForms;
 
 using Project.Models;
+using System.Diagnostics;
 
 namespace Project
 {    class Program
